@@ -11,14 +11,15 @@ body{
 
 .home-title{
 	color: #fff;
-	font-weight: lighter;
-	font-size: 54px;
+	font-weight: medium;
+
+	font-size: 58px;
 }
 
 .home-tagline{
 	color: #fff;
-	font-weight: lighter;
-	font-size: 18px;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 .home-bttn{
@@ -96,21 +97,21 @@ body{
 }
 
 .about-title{
-	/*font-weight: lighter;*/
-	font-size: 32px;
+	font-weight:bold;
+	font-size: 36px;
 }
 
 .about-line{
-	width: 320px;
-	height: 2px;
+	width: 322px;
+	height: 4px;
 	border: 0;
 	outline: none;
 	background: #333;
 }
 
 .about-text{
-	font-weight: lighter;
-	font-size: 18px;
+	font-weight: normal;
+	font-size: 19px;
 }
 
 @media(max-width: 991px){
@@ -149,13 +150,13 @@ body{
 
 .schedule-title{
 	color: #fff;
-	font-size: 42px;
+	font-size: 43px;
 }
 
 .schedule-text{
 	color: #fff;
-	font-size: 20px;
-	font-weight: lighter;
+	font-size: 21px;
+	font-weight: normal;
 }
 
 .day-card{
@@ -205,11 +206,12 @@ body{
 }
 
 .people-title{
-	font-size: 36px;
+	font-size: 37px;
+	font-weight: 600;
 }
 
 .people-tagline{
-	font-size: 22px;
+	font-size: 23px;
 	font-weight: lighter;
 }
 
@@ -219,11 +221,13 @@ body{
 }
 
 .people-card-title{
-	font-size: 20px;
+	font-size: 22px;
+	font-weight: 600;
 }
 
 .people-card-description{
-	font-weight: lighter;
+	font-weight: 400;
+	font-size: 16px;
 }
 
 @media(max-width: 991px){
@@ -238,16 +242,16 @@ body{
 }
 
 .partners-title{
-	font-size: 36px;
+	font-size: 38px;
 }
 
 .partners-text{
 	font-weight: lighter;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 .partners-type-title{
-	font-size: 24px;
+	font-size: 26px;
 }
 
 .contact{
