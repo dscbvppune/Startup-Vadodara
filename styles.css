@@ -237,7 +237,7 @@ body{
 }
 
 .partners{
-	background: #f8f8f8;
+	background: #fff;
 	padding: 120px 0 80px;
 }
 
@@ -286,15 +286,22 @@ body{
 	font-weight: normal;
 }
 
-.img-team{
+.img-block{
+	padding: 15px 0;
+}
 
-	height: 20vh;
-	width:20vh;
+.img-team{
+	height: 150px;
+	width: 150px;
 	border-radius: 50%;
 	padding: 10px;
 }
 
 .team{
-	background: lightgrey;
+	background: #f8f8f8;
 	padding: 100px 0;
+}
+
+.heart{
+	color: #ff5962;
 }
