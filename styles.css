@@ -285,3 +285,16 @@ body{
 	cursor: pointer;
 	font-weight: normal;
 }
+
+.img-team{
+
+	height: 20vh;
+	width:20vh;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.team{
+	background: lightgrey;
+	padding: 100px 0;
+}
