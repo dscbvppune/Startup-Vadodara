@@ -30,6 +30,10 @@ body{
 	font-weight: lighter;
 	color: #fff;
 	cursor: pointer;
+	text-decoration: none!important;
+}
+a:hover{
+	text-decoration: none;
 }
 
 .home-icons{
