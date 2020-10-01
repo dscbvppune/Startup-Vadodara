@@ -32,6 +32,11 @@ body{
 	cursor: pointer;
 }
 
+.home-bttn a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .home-icons{
 	color: #fff;
 	font-size: 42px;
