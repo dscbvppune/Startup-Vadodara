@@ -1,0 +1,320 @@
+body{
+	font-family: "Josefin Sans";
+}
+
+.home{
+	padding: 240px 0;
+	background: url('bg.png');
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.home-title{
+	color: #fff;
+	font-weight: medium;
+
+	font-size: 58px;
+}
+
+.home-tagline{
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.home-bttn{
+	padding: 12px 32px;
+	background: #7a2fff;
+	border-radius: 32px;
+	font-size: 24px;
+	font-weight: lighter;
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none!important;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.home-icons{
+	color: #fff;
+	font-size: 42px;
+}
+
+.event-details{
+	font-size: 25px;
+	color: #fff;
+	padding-left: 18px;
+}
+.town-link,.town-link:hover, .town-link:visited, .town-link:focus{
+
+	text-decoration: none;
+}
+
+@media(max-width: 991px){
+	.home{
+		padding: 175px 0;
+	}
+
+	.home-title{
+		font-size: 45px
+	}
+
+	.home-tagline{
+		font-size: 24px;
+	}
+
+	.home-bttn{
+		font-size: 24px;
+	}
+
+	.home-icons{
+		font-size: 32px;
+	}
+
+	.event-details{
+		font-size: 21px
+	}
+}
+
+@media(max-width: 767px){
+	.home{
+		padding: 150px 0;
+	}
+
+	.home-title{
+		font-size: 35px
+	}
+
+	.home-tagline{
+		font-size: 20px;
+	}
+
+	.home-icons{
+		font-size: 25px;
+	}
+
+	.event-details{
+		font-size: 18px;
+	}
+}
+
+.about{
+	padding: 150px 0;
+	background: #f8f8f8;
+}
+
+.about-title{
+	font-weight:bold;
+	font-size: 36px;
+}
+
+.about-line{
+	width: 322px;
+	height: 4px;
+	border: 0;
+	outline: none;
+	background: #333;
+}
+
+.about-text{
+	font-weight: normal;
+	font-size: 19px;
+}
+
+@media(max-width: 991px){
+	.about-title{
+		font-size: 25px;
+	}
+
+	.about-line{
+		width: 225px;
+	}
+
+	.about-text{
+		font-size: 16px;
+	}
+}
+
+@media(max-width: 767px){
+	.about-title{
+		font-size: 22px;
+	}
+
+	.about-line{
+		width: 200px;
+	}
+
+	.about-text{
+		font-size: 14px;
+	}
+}
+
+.schedule{
+	padding: 180px 0;
+	background: url("hackathon.png") center center no-repeat;
+	background-size: cover;
+}
+
+.schedule-title{
+	color: #fff;
+	font-size: 43px;
+}
+
+.schedule-text{
+	color: #fff;
+	font-size: 21px;
+	font-weight: normal;
+}
+
+.day-card{
+	padding: 0 15px;
+}
+
+.day-schedule{
+	background: rgba(255, 255, 255, 0.84);
+	padding: 0px 0 30px;
+	border-top-left-radius: 32px;
+	border-top-right-radius: 32px;
+}
+
+.card-title{
+	padding: 20px 0;
+	background: rgb(21 23 28 / 0.92);
+	color: #fff;
+	font-size: 22px;
+	font-weight: lighter;
+	border-top-left-radius: 32px;
+	border-top-right-radius: 32px;
+}
+
+.item-title, .item-description{
+	padding: 5px 32px;
+}
+
+.item-title{
+	font-size: 20px;
+}
+
+.item-description{
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.item-line{
+	border: 0;
+	outline: none;
+	width: 142px;
+	height: 2px;
+	background: #cacaca;
+}
+
+.people{
+	padding: 180px 0;
+}
+
+.people-title{
+	font-size: 37px;
+	font-weight: 600;
+}
+
+.people-tagline{
+	font-size: 23px;
+	
+}
+
+.people-typo{
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.people-card-title{
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.people-card-description{
+	font-weight: 400;
+	font-size: 16px;
+}
+
+@media(max-width: 991px){
+	.people-card, .day-card{
+		margin: 32px 0 0;
+	}
+}
+
+.partners{
+	background: #fff;
+	padding: 120px 0 80px;
+}
+
+.partners-title{
+	font-size: 38px;
+}
+
+.partners-text{
+	font-weight: lighter;
+	font-size: 22px;
+}
+
+.partners-type-title{
+	font-size: 26px;
+}
+
+.contact{
+	padding: 120px 0 40px;
+	color: #fff;
+	background: #252525;
+}
+
+.contact-title{
+	font-size: 32px;
+}
+
+.contact-text{
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.social-icon{
+	color: #fff;
+	font-size: 32px;
+	padding: 0 12px;
+	transition: 400ms;
+}
+
+.footer-text{
+	font-weight: lighter;
+	font-size: 16px;
+}
+
+.org{
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.img-block{
+	padding: 15px 0;
+}
+
+.img-team{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.team{
+	background: #f8f8f8;
+	padding: 100px 0;
+}
+
+.heart{
+	color: #ff5962;
+}
+
+.partner-block{
+	padding: 32px 0!important;
+}
