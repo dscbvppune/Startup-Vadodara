@@ -3,10 +3,11 @@ body{
 }
 
 .home{
-	padding: 220px 0;
+	padding: 240px 0;
 	background: url('bg.png');
 	background-size: cover;
 	background-attachment: fixed;
+	
 }
 
 .home-title{
@@ -45,6 +46,10 @@ a:hover{
 	font-size: 25px;
 	color: #fff;
 	padding-left: 18px;
+}
+.town-link,.town-link:hover, .town-link:visited, .town-link:focus{
+
+	text-decoration: none;
 }
 
 @media(max-width: 991px){
@@ -194,7 +199,7 @@ a:hover{
 
 .item-description{
 	font-size: 15px;
-	font-weight: lighter;
+	font-weight: 300;
 }
 
 .item-line{
@@ -216,11 +221,11 @@ a:hover{
 
 .people-tagline{
 	font-size: 23px;
-	font-weight: lighter;
+	
 }
 
 .people-typo{
-	font-weight: lighter;
+	font-weight: 300;
 	font-size: 18px;
 }
 
